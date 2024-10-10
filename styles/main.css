@@ -1,0 +1,152 @@
+
+/* FEATURES */
+
+.main-features,
+.main-content,
+.main-gallery,
+.main-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+
+.features-title,
+.features-subtitle {
+    margin-bottom: 0;
+    font-family: RobotoL, sans-serif;
+}
+
+.features-title {
+    margin-top: 162px;
+    font-size: 52px;
+}
+
+.features-subtitle {
+    width: 40%;
+    text-align: center;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+
+.features-image {
+    margin-top: 80px;
+    display: flex;
+}
+.features-image ul {
+    padding: 0;
+    margin-top: -35px;
+}
+
+.features-image ul li {
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.main-li-header {
+    font-size: 20px;
+    font-family: RobotoM, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.main-li-header img {
+    margin-right: 13px;
+}
+
+.main-li-footer {
+    display: inline-block;
+    font-family: RobotoL, sans-serif;
+    width: 270px;
+    margin-top: 20px;
+}
+
+
+/* CONTENT */
+
+.main-cards {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 35px;
+    height: 570px;
+}
+
+.main-card h3 {
+    font-size: 20px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+.main-card h5 {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-family: RobotoL, sans-serif;
+    width: 260px;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+}
+
+.main-card button {
+    margin-top: 65px;
+}
+.extra-class {
+    margin-top: 75px;
+}
+.first-card {
+    margin-right: 33px;
+}
+
+/* GALLERY */
+
+
+
+.gallery-first-row,
+.gallery-second-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.gallery-first-row img,
+.gallery-second-row img {
+    border-radius: 12px;
+    margin-right: 33px;
+}
+
+.gallery-second-row {
+    margin-bottom: 44px;
+}
+
+/* PARTNERS */
+
+.main-partners {
+}
+
+
+.partners-images {
+    margin-left: 74px;
+}
+.partners-images  img {
+    margin-right: 74px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
