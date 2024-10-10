@@ -4,7 +4,8 @@
 .main-features,
 .main-content,
 .main-gallery,
-.main-partners {
+.main-partners,
+.main-testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,11 +136,8 @@
     margin-bottom: 44px;
 }
 
+
 /* PARTNERS */
-
-.main-partners {
-}
-
 
 .partners-images {
     margin-left: 74px;
@@ -150,3 +148,44 @@
     margin-bottom: 54px;
 }
 
+
+/* Testimonials */
+
+.testimonials {
+    margin-left: 23px;
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.testimonial {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+    margin-bottom: 20px;
+    margin-right: 23px;
+}
+
+.testimonial-title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.testimonial-title img {
+    margin-right: 23px;
+}
+
+.testimonial-name,
+.testimonial-job {
+    font-family: RobotoM, sans-serif;
+    line-height: 1.5;
+}
+
+.testimonial-content {
+    font-family: RobotoL, sans-serif;
+}
