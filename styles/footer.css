@@ -8,8 +8,12 @@
 
 .footer-links {
     display: flex;
-    
 }
+
+.footer-links > div:last-child {
+    margin-right: 0;
+}
+
 
 .links {
     display: flex;
