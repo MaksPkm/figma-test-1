@@ -16,8 +16,8 @@ body {
 
 
 .header-nav {
-    margin-left: 120px;
-    margin-right: 185px;
+    margin-left: 7%;
+    margin-right: 11% ;
 }
 .header-nav a {
     font-family: RobotoM, sans-serif;
@@ -52,13 +52,13 @@ body {
 }
 
 .header-texts-title {
-    width: 50%;
+    width: 680px;
     font-size: 80px;
     font-family: RobotoM, sans-serif;
 }
 
 .header-texts-subtitle {
-    width: 40%;
+    width: 680px;
     margin-top: 17px;
     font-size: 20px;
     font-family: RobotoL, sans-serif;
@@ -80,4 +80,70 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 35px;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .header-main {
+        flex-direction: column;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .header-nav {
+        margin: 20px 0;
+    }
+
+    .header-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .header-texts-title,
+    .header-texts-subtitle {
+        width: 100%;
+    }
+
+    .header-texts-title {
+        font-size: 50px;
+    }
+    
+    .header-texts-subtitle {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .header-image {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-nav a {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-first-button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
